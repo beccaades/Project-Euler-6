@@ -26,6 +26,12 @@ describe 'SumSquare' do
       expect(SumSquare.new(3).square_sum_of_nums(3)).to eq(36)
     end
   end
+
+  describe "project euler solution" do
+    it "returns the correct solution" do
+      expect(app.sum_square).to eq(2640)
+    end
+  end
 end
 
 
